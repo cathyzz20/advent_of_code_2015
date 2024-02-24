@@ -1,6 +1,7 @@
 #part 1
 with open('input_text_1.txt', 'r') as file:
     instruction_set=file.read()
+file.close()
 floor=0
 for instruction in instruction_set:
     if instruction == "(":

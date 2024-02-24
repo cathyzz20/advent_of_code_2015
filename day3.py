@@ -1,6 +1,7 @@
 #part1
 with open('input_text_3.txt', 'r') as file:
     path_houses=file.read()
+file.close()
 house_list=[]
 x=0
 y=0
