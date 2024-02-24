@@ -1,5 +1,5 @@
 #part1
-with open('input_text.txt', 'r') as file:
+with open('input_text_6.txt', 'r') as file:
     instructions = file.read().split('\n')
     instructions=[i.split(' ') for i in instructions]
 file.close()
@@ -22,7 +22,7 @@ for i in instructions:
 print(np.sum(grid))
 #part2
 import numpy as np
-data = open('D:/桌面/instructions.txt').read().splitlines()
+data = open('input_text_6.txt.txt').read().splitlines()
 data = [i.split(' ') for i in data]
 grid = np.zeros((1000, 1000), 'int32')
 for i in data:
